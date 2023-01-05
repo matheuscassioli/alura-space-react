@@ -1,5 +1,4 @@
-import "./Styles/globalStyles.scss"
-
+import "./Styles/globalStyles.scss" 
 import HomePage from "./Pages/HomePage"
 import Menu from "./Componentes/Menu";
 import Banner from "./Componentes/Banner";
