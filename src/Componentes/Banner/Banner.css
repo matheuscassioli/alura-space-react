@@ -5,3 +5,11 @@
     background-repeat: no-repeat;
     height: 280px;
 }
+
+.banner_texto{
+    color: white;
+    font-size: 40px;
+    max-width: 30%;
+    padding-left: 3rem;  
+    font-family: "GandSansBold";
+}

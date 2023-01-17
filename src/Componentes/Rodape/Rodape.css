@@ -1,0 +1,21 @@
+.rodape { 
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 5%;  
+    align-items: center;
+}
+.rodape_redes{
+    display: flex; 
+    gap: 2rem;
+}
+.rodape_hug-img {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+.rodape_desenvolvido{ 
+    color: white;
+    font-family: "GandSansRegular";
+}

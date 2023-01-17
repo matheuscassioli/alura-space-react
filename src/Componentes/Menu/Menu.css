@@ -1,6 +1,8 @@
+ 
 .menu-sidebar {
     color: white;
     width: 15%;
+    font-family: "GandSansRegular";
 }
 
 .menu-sidebar__lista {
