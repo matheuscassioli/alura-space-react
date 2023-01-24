@@ -1,0 +1,56 @@
+.populares_lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: -4rem;
+}
+
+.populares_title {
+    font-size: 24px;
+    color: #7b78e5;
+    font-family: "GandSansRegular";
+}
+
+.populares_item {
+    list-style: none;
+}
+
+.populares_button {
+    margin-top: 1.5rem;
+    background: transparent;
+    border: none;
+    color: white;
+    font-family: "GandSansRegular";
+    font-size: 16px;
+    width: 100%;
+    padding: 12px 16px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+
+.populares_button:hover {
+    border-radius: 10px;
+    background: linear-gradient(to right, #c98cf1, #7b78e5) border-box;
+    color: #041833;
+    transition: 0.1s;
+    border-radius: 10px;
+}
+
+.populares_button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 10px;
+    z-index: -1;
+    border: 2px solid transparent;
+    background: linear-gradient(to right, #c98cf1, #154580) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    background: linear-gradient(to right, #c98cf1, #7b78e5) border-box;
+    color: #041833;
+    transition: 0.1s;
+}
