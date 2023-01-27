@@ -4,6 +4,7 @@ import Menu from "Componentes/Menu";
 import Banner from "Componentes/Banner";
 import Rodape from "Componentes/Rodape";
 import Galeria from "Componentes/Galeria";
+import MenuMobile from "Componentes/MenuMobile";
 
 export default function App() {
   return (
@@ -14,7 +15,7 @@ export default function App() {
           <Menu />
           <Banner />
         </div>
-
+        <MenuMobile />
         <Galeria />
       </main>
       <Rodape />

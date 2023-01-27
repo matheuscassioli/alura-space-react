@@ -8,18 +8,24 @@ export default function Rodape() {
   return (
     <footer className="rodape">
       <div className="rodape_redes">
-        <div
-          className="rodape_hug-img"
-          style={{ backgroundImage: `url(${facebook})` }}
-        ></div>
+        <a target="_blank" href="https://www.alura.com.br/">
+          <div
+            className="rodape_hug-img"
+            style={{ backgroundImage: `url(${facebook})` }}
+          ></div>
+        </a>
+        <a target="_blank" href="https://www.alura.com.br/">
         <div
           className="rodape_hug-img"
           style={{ backgroundImage: `url(${twitter})` }}
         ></div>
+        </a>
+        <a target="_blank" href="https://www.alura.com.br/">
         <div
           className="rodape_hug-img"
           style={{ backgroundImage: `url(${instagram})` }}
         ></div>
+        </a>
       </div>
       <div className="rodape_desenvolvido">
         <p>Desenvolvido por Alura</p>

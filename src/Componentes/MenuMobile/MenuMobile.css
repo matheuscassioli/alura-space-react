@@ -1,0 +1,32 @@
+ .menu-sidebar-mobile {
+     color: white;
+     width: 100%;
+     font-family: "GandSansRegular";
+ }
+ .menu-sidebar__lista-mobile{
+    display: flex; 
+    justify-content: space-around;
+    list-style: none;
+ }
+
+ .menu-sidebar__lista-mobile img{
+    vertical-align: middle;
+    margin-right: 4px;
+ }
+
+ .menu-sidebar__lista-mobile a{
+    color: white;
+    text-decoration: none;
+ }
+
+ @media screen and (min-width: 1200px){
+   .menu-sidebar-mobile{
+      display: none;
+   }
+ }
+
+ @media screen and (max-width: 610px){
+   .menu-sidebar__lista-mobile{
+      flex-direction: column;
+   }
+ }

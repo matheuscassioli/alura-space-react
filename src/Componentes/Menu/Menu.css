@@ -4,7 +4,6 @@
     width: 15%;
     font-family: "GandSansRegular";
 }
-
 .menu-sidebar__lista {
     list-style: none;
     display: flex;
@@ -13,6 +12,9 @@
     padding-left: 2rem;
 }
 
+.menu-sidebar li{
+    white-space: nowrap;
+}
 .menu-sidebar__lista li a {
     text-decoration: none;
     color: white;
@@ -21,4 +23,10 @@
 
 .menu-sidebar__lista li img {
     vertical-align: middle;
+}
+
+@media screen and (max-width: 1200px) {
+    .menu-sidebar{
+        display: none;
+    }
 }

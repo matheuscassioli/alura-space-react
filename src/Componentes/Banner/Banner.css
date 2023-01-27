@@ -1,7 +1,7 @@
 .banner {
     background-image: url(../../assets/banner.png);
     width: 85%; 
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 280px;
 }
@@ -12,4 +12,18 @@
     max-width: 30%;
     padding-left: 3rem;  
     font-family: "GandSansBold";
+}
+
+@media screen and (max-width: 1200px) {
+    .banner{
+      width: 100%; 
+    }
+   
+}
+@media screen and (max-width: 824px) { 
+    .banner_texto{
+        font-size:32px ;
+        max-width: 50%;
+    }
+   
 }

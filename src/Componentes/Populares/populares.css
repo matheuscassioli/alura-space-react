@@ -13,6 +13,11 @@
 
 .populares_item {
     list-style: none;
+    
+}
+.populares_item:hover{
+    transform: scale(1.050);
+    transition: 0.18s;
 }
 
 .populares_button {
@@ -53,4 +58,24 @@
     background: linear-gradient(to right, #c98cf1, #7b78e5) border-box;
     color: #041833;
     transition: 0.1s;
+}
+
+@media screen and (max-width:924px){
+    .populares_lista{
+        padding:0
+    }
+    .populares_lista_hug{
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        flex-direction: row;
+        position: relative;
+        margin-top: 5rem;
+    }
+ .populares_title{
+    margin-bottom: 3rem;
+    position: absolute; 
+    width:100%;
+    text-align: center;
+ } 
 }
