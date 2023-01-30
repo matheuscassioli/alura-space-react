@@ -62,7 +62,8 @@
 
 @media screen and (max-width:924px){
     .populares_lista{
-        padding:0
+        padding:0;
+        align-items: center;
     }
     .populares_lista_hug{
         display: flex;
@@ -71,11 +72,11 @@
         flex-direction: row;
         position: relative;
         margin-top: 5rem;
+        justify-content: center;
     }
  .populares_title{
     margin-bottom: 3rem;
-    position: absolute; 
-    width:100%;
+    position: absolute;  
     text-align: center;
  } 
 }
