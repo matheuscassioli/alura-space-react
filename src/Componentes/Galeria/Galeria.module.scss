@@ -4,8 +4,7 @@
   margin: auto;
 }
 
-.galeria {
-  font-family: $fonte-normal;
+.galeria { 
   margin-bottom: 2rem;
   font-family: "GandSansRegular";
   
@@ -15,7 +14,7 @@
 
   &__h2 {
     font-family: "GandSansRegular";
-    color: $roxo ;
+    color: #7b78e5 ;
     font-size:24px;
   }
 
@@ -29,7 +28,7 @@
   }
 
   &__card {
-    background-color: $azul-escuro;
+    background-color: #041833;
     border-radius: 20px;
     height: 280px;
     width: 285px;
@@ -58,7 +57,7 @@
       p {
         margin: 0;
         margin-top: 0.5rem;
-        color: $cinza-claro;
+        color: #9d9d9d;
       }
 
       span {
@@ -83,8 +82,8 @@
     margin: 0;
     padding: 0 16px;
     font-size: 1.25rem;
-    color: $cor-do-texto;
-    font-family: $fonte-bold;
+    color: #d9d9d9;
+    font-family: "GandhiSansBold";
     font-family: "GandSansRegular";
   }
 
