@@ -6,7 +6,7 @@ body {
   margin: 0;
      width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient($azul-escuro, $azul-claro);
+    background-image: linear-gradient(#041833, #154580);
     box-sizing: border-box;
     overflow-x: hidden;
   }
@@ -22,10 +22,10 @@ body {
     width: 3px;
   }
   body::-webkit-scrollbar-track {
-    background: linear-gradient($azul-escuro, $azul-claro);
+    background: linear-gradient(#041833, #154580);
   }
   body::-webkit-scrollbar-thumb {
-    background-color: $azul-claro;
+    background-color: #154580;
     border-radius: 20px;
   }
 
